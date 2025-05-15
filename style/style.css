@@ -20,6 +20,10 @@ main {
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
 }
 
+main img {
+    border-radius: 50%;
+}
+
 footer {
     color: white;
     text-align: center;
