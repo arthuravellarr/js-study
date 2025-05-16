@@ -3,11 +3,34 @@
 body {
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 0px;
+    height: 95vh;
 }
 
 header {
     color: white;
     text-align: center;
+}
+
+body > a {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    margin: 20px auto;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    margin: 0;
+    width: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
+}
+
+body > a:hover {
+    background-color: rgba(255, 255, 255, 0.449);
 }
 
 main {
@@ -30,6 +53,14 @@ main div {
 
 footer {
     color: white;
-    text-align: center;
     font-style: italic;
+    text-align: center;
 }  
+
+footer > p {
+    background-color: rgba(255, 255, 255, 0.184);
+    width: 160px;
+    padding: 4px;
+    margin: 20px auto;
+    border-radius: 7px;
+}

@@ -7,13 +7,13 @@ function load() {
     message.innerHTML = `It's ${hour}h now`
 
     if (hour >= 4 && hour < 12) {
-        image.src = 'imgs/img-morning.png'
+        image.src = '../imgs/img-morning.png'
         document.body.style.background = '#d1a858'
     } else if (hour >= 12 && hour < 18) {
-        image.src = 'imgs/img-afternoon.png'
+        image.src = '../imgs/img-afternoon.png'
         document.body.style.background = '#d1a858'
     } else {
-        image.src = 'imgs/img-night.png'
+        image.src = '../imgs/img-night.png'
         document.body.style.background = '#0d3661'
     }
 }
