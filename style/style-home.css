@@ -2,4 +2,40 @@
 
 body {
     background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 0;
+    background-color: rgba(255, 255, 255, 0.307);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+div.container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+div.container > a.buttom {
+    background-color: #0d3661;
+    padding: 10px 17px;
+    font-size: 1.4em;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.container > a.buttom:hover {
+    transform: scale(1.05);
+    transition: .5s ease;
 }
