@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 0px;
+    height: 95vh;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+body > a {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    margin: 0;
+    width: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
+}
+
+body > a:hover {
+    background-color: rgba(255, 255, 255, 0.449);
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    width: 430px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
+}
+
+main div {
+    padding: 8px;
+}
+
+select#idNumbers {
+    width: 120px;
+}
+
+input[type="button"]#finalize {
+    display: block;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}  
+
+footer > p {
+    background-color: rgba(255, 255, 255, 0.184);
+    width: 160px;
+    padding: 4px;
+    margin: 20px auto;
+    border-radius: 7px;
+}
