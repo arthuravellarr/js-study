@@ -45,6 +45,10 @@ main div {
     padding: 8px;
 }
 
+div#idResult {
+    display: none;
+}
+
 footer {
     color: white;
     font-style: italic;
