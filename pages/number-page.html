@@ -16,13 +16,13 @@
     <main>
         <div>
             <p>
-                <label for="idNumber">Number (between 1 and 100): </label>
-                <input type="number" name="number" id="idNumber" value="1" value="0">
+                <label for="idNumber">A number (between 1 and 100): </label>
+                <input type="number" name="number" id="idNumber" min="1" max="100">
                 <input type="button" value="Add" onclick="add()">
             </p>
-            <p>
+            <p id="list">
                 <select name="select" id="idNumbersList" size="6"></select>
-                <input type="button" value="Finalize" id="finalize">
+                <input type="button" value="Finalize" id="finalize" onclick="finalize()">
             </p>
         </div>
         <div id="idResult">

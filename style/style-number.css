@@ -45,12 +45,20 @@ main div {
     padding: 8px;
 }
 
-select#idNumbers {
+select#idNumbersList {
     width: 120px;
 }
 
 input[type="button"]#finalize {
     display: block;
+}
+
+p#list {
+    margin: 0;
+}
+
+div#idResult {
+    display: none;
 }
 
 footer {
