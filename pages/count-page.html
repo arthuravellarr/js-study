@@ -10,15 +10,27 @@
 
 <body>
     <header>
-        <h1>Counter</h1>
+        <h1>Let's Count</h1>
     </header>
 
     <main> 
-        <div>
-
+        <div id="data">
+            <p>
+                <label for="idStart">Start: </label>
+                <input type="number" name="start" id="idStart" value="0">
+            </p>
+            <p>
+                <label for="idEnd">End: </label>
+                <input type="number" name="end" id="idEnd" value="0">
+            </p>
+            <p>
+                <label for="idStep">Step: </label> 
+                <input type="number" name="step" id="idStep" value="1" min="1">
+            </p>
+            <p><input type="button" value="Count" onclick="count()"></p>
         </div>
-        <div>
-            
+        <div id="idResult">
+            Preparing the count...
         </div>
     </main>
 
