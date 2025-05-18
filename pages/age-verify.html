@@ -14,11 +14,29 @@
     </header>
 
     <main>
-
+        <div>
+            <p>
+                <label for="idYearInput">Year of birth: </label>
+                <input type="number" min="0" id="idYearInput" value="2023" required>
+            </p>
+            <p>
+                Gender:
+                <input type="radio" id="idMale" name="radGender" checked>
+                <label for="idMale">Male</label>
+                <input type="radio" id="idFemale" name="radGender">
+                <label for="idFemale">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Verify" onclick="vefify()">
+            </p>
+        </div>
+        <div id="idResult">
+            Fill the fields above to see the result!
+        </div>
     </main>
 
     <footer>
-        
+        <p>&COPY; @arthuravellarr</p>
     </footer>
     <a href="../index.html" rel="prev">Back</a>
     <script src="../scripts/scripts-age.js"></script>

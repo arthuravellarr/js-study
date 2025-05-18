@@ -33,7 +33,18 @@ body > a:hover {
 }
 
 main {
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.415);
+}
 
+main img {
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0;
 }
 
 footer {
